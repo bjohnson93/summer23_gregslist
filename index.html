@@ -29,12 +29,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
+        <div class="navbar-nav p-4">
           <!-- NAVLINKS -->
           <a href="#/about" class="nav-link">About</a>
           <a href="#/cars" class="nav-link">Cars 🚗</a>
 
           <!-- FIXME add a link tag to get to your houses page -->
+          <a href="#/houses" class="nav-link">Houses 🛖</a>
+          <a href="#/jobs" class="nav-link">Jobs 💼</a>
         </div>
       </div>
     </nav>
@@ -42,6 +44,7 @@
 
   <!-- SECTION -->
   <main id="router-view">
+    <!-- <main> -->
     <!-- PRIMARY VIEWPORT -->
 
     <!-- NOTE all of this HTML has been moved to CarView.js in the views folder -->
@@ -89,7 +92,87 @@
             </div>
           </section>
         </div> -->
+
+    <!-- //STUB - move to House.js to become template -->
+    <!-- <div class="container-fluid">
+      <section class="row ">
+        <div class="col-12 p-4">
+          <h1>Houses </h1>
+        </div>
+      </section>
+
+      <section class="row ">
+        <div class="col-10 m-auto mb-3">
+          <section class="row bg-light elevation-5">
+            <div class="col-4 p-0">
+              <img
+                src="https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dmljdG9yaWFuJTIwaG9tZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                class="img-fluid" alt="">
+            </div>
+            <div class="col-8 p-3">
+              <h2>1987 3 Bedroom 2 Bathroom</h2>
+              <h3>$1000000</h3>
+              <h4>1800 sqft</h4>
+              <p>Recently Updated</p>
+            </div>
+          </section>
+        </div>
+      </section> -->
+    <!-- form for house -->
+    <!-- *STUB - template for house form -->
+
+
+
+    <!-- <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim
+        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+    <div class="container-fluid">
+      <section class="row">
+        <div class="col-10 m-auto">
+          <form>
+
+            <div>
+              <label for="houseYear">Year</label>
+              <input type="number" id="houseYear" min="" max="" required name="year">
+            </div>
+
+            <div>
+              <label for="houseBedrooms">Bedrooms</label>
+              <input type="number" id="houseBedrooms" min="1" max="10" required name="bedrooms">
+            </div>
+
+            <div>
+              <label for="houseBathrooms">Bathrooms</label>
+              <input type="number" id="houseBathrooms" min="1" max="10" required name="bathrooms">
+            </div>
+
+            <div>
+              <label for="housePrice">Price</label>
+              <input type="number" id="housePrice" min="1" max="30000000" required name="price">
+            </div>
+
+            <div>
+              <label for="houseSqft">Square Footage</label>
+              <input type="number" id="houseSqft" min="1" max="30000000" required name="sqft">
+            </div>
+
+            <div>
+              <label for="houseDescription">Description</label>
+              <textarea id="houseDescription" rows="5" cols="w-40" name="description"></textarea>
+            </div>
+
+          </form>
+        </div>
+      </section>
+    </div>
+    </div> -->
+
+
   </main>
+
 
   <!-- SECTION -->
   <footer>
@@ -127,27 +210,27 @@
               <label for="carDescription">Description</label>
               <textarea id="carDescription" name="description" rows="10" class="w-50">
               </textarea>
-            </div>
+              </div>
 
-            <div>
-              <label for="carMiles">Miles</label>
-              <input id="carMiles" name="miles" type="number" min="1" max="1000000" required>
-            </div>
+              <div>
+                <label for="carMiles">Miles</label>
+                <input id="carMiles" name="miles" type="number" min="1" max="1000000" required>
+              </div>
 
-            <div>
-              <label for="carColor">Color</label>
-              <input type="color" id="carColor" name="color" value="#e66465" required>
-            </div>
+              <div>
+                <label for="carColor">Color</label>
+                <input type="color" id="carColor" name="color" value="#e66465" required>
+              </div>
 
-            <div>
-              <label for="carGrandmaBool">Was this car owned by a Grandma?</label>
-              <input type="checkbox" id="carGrandmaBool" name="ownedByGrandma">
-            </div>
+              <div>
+                <label for="carGrandmaBool">Was this car owned by a Grandma?</label>
+                <input type="checkbox" id="carGrandmaBool" name="ownedByGrandma">
+              </div>
 
-            <button type="submit">Submit</button>
-          </form>
+              <button type="submit">Submit</button>
+            </form>
 
-        </div>
+          </div>
       </div>
     </div> -->
   </footer>
